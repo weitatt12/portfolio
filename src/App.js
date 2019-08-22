@@ -4,7 +4,8 @@ import { Switch, Route } from 'react-router-dom'
 import NavBar from "./components/NavBar";
 import Loading from "./components/Loading";
 import AboutMe from "./pages/AboutMe";
-import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import Home from "./pages/Home";
 
 class App extends React.Component {
   render() {
@@ -14,8 +15,11 @@ class App extends React.Component {
         <Loading />
         <Switch>
           <Route exact path="/about_me" component={AboutMe} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/" component={Home}/>          
         </Switch>
+    
+
       </>
     );
   }
