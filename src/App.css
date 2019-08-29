@@ -1,15 +1,23 @@
 .header-color {
-  background: #B2FEFA;  
-  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA); 
-  background: linear-gradient(to right, #0ED2F7, #B2FEFA); 
+  background: #000000; 
+  background: -webkit-linear-gradient(to right, #000000, #434343);
+  background: linear-gradient(to right, #000000, #434343);
 }
-body, html {
-  height: 100%;
+
+.my-name {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  color: white;
 }
+
+body, html, #root {
+  height: 100vh;
+  background: #000000; 
+  background: -webkit-linear-gradient(to right, #000000, #434343);
+  background: linear-gradient(to right, #000000, #434343);
+}
+
 .home-grid {
-  background: #B2FEFA;  
-  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA); 
-  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
   text-align: center;
   /* top: 0px; */
   /* bottom: 0px; */
@@ -30,7 +38,6 @@ body, html {
 }
 
 .banner-text {
-  background-color: black;
   opacity: .8;
   width: 75vw;
   border-radius: 10px;
@@ -69,6 +76,35 @@ body, html {
   padding: 5px;
 }
 
+.about-me {
+  color: white;
+}
+
+.project-color {
+  color: white;
+}
+
 .projects {
   margin: auto;
+}
+
+.nav-item {
+  color: white;
+  padding: 8px;
+}
+
+ul a:hover {
+  background-color: red;
+  color: blue;
+}
+
+/*Additional stuff to make the ModalHeader behave (maybe)*/
+.modal-title {
+  margin:4px 0px;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

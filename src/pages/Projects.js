@@ -3,22 +3,20 @@ import {
     Card,
     CardBody,
     CardTitle,
-    CardSubtitle, 
     CardText, 
-    CardLink, 
     CardImg, 
-    Button, 
     CardGroup
     } from 'reactstrap';
 
 class Projects extends React.Component {
     render() {
         return(
-            <>
-                <h1 className="text-center"><strong><em>My Projects</em></strong></h1>
+            <>  
+                <div className="project-color">
+                <h1 className="text-center mt-0"><strong><em>My Projects</em></strong></h1>
                 
                 <CardGroup className="projects" style={{width:'550px'}}>
-                    <a href="https://sugar-combat.herokuapp.com/" style={{textDecoration:'none',color:'black'}}>
+                    <a href="https://sugar-combat.herokuapp.com/" style={{textDecoration:'none',color:'black'}} target="_blank">
                         <Card>
                             <img src="https://nextagram-flask.s3.amazonaws.com/Sugar+combat-pic.png" alt="sugar combat" width='550px' height='300px'/>
                             <CardBody>
@@ -30,7 +28,7 @@ class Projects extends React.Component {
 
                     <br />
 
-                    <a href="https://nextagram-done.herokuapp.com" style={{textDecoration:'none',color:'black'}}>
+                    <a href="https://nextagram-done.herokuapp.com" style={{textDecoration:'none',color:'black'}} target="_blank">
                         <Card>
                             <img src="https://nextagram-flask.s3.amazonaws.com/Nextagram-pic.png" alt="nextagram" width='550px' height='300px'/>
                             <CardBody>
@@ -42,7 +40,7 @@ class Projects extends React.Component {
 
                     <br />
 
-                    <a href="https://awesome-davinci-55503e.netlify.com/" style={{textDecoration:'none',color:'black'}}>
+                    <a href="https://awesome-davinci-55503e.netlify.com/" style={{textDecoration:'none',color:'black'}} target="_blank">
                         <Card>
                             <CardImg top width="100%" src="https://nextagram-flask.s3.amazonaws.com/Tic+Tac+Toe-pic.png" alt="tic tac toe" width='300px' height='300px' />
                             <CardBody>
@@ -53,7 +51,7 @@ class Projects extends React.Component {
                     </a>
 
                 </CardGroup>
-                
+                </div>
             </>
         )
     }

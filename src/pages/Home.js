@@ -7,7 +7,7 @@ class Home extends React.Component {
             <div style={{ width:'100%', margin: 'auto' }}>
                 <Grid className="home-grid">
                     <Cell col={12}>
-                        <img src="https://cdn4.iconfinder.com/data/icons/hacker-1/500/hacker-hack-crime-cyber_2-512.png" alt='coder' className="coder-img" />
+                        <img src="https://image.flaticon.com/icons/svg/1320/1320457.svg" alt='coder' className="coder-img" />
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
 
@@ -25,11 +25,6 @@ class Home extends React.Component {
                     {/* Github */}
                     <a href="https://github.com/weitatt12" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true" />
-                    </a>
-
-                    {/* Youtube */}
-                    <a href="https://www.youtube.com/watch?v=GJV76h1YVx4" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-youtube-square" aria-hidden="true" />
                     </a>
 
                     {/* Facebook */}
