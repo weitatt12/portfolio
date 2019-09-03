@@ -1,5 +1,8 @@
 import React from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { 
+    Grid, 
+    Cell 
+} from 'react-mdl';
 
 class Home extends React.Component {
     render() {
@@ -11,27 +14,29 @@ class Home extends React.Component {
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
 
-                        <hr />
+                            <hr />
 
-                    <p> HTML / CSS | Bootstrap | JavaScript | React JS | Python | Flask | SQL </p>
+                            <p> HTML / CSS | Bootstrap | JavaScript | React JS | Python | Flask | SQL </p>
 
-                <div className="social-links">
+                            <div className="social-links">
 
-                    {/* Linked In */}
-                    <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-linkedin-square" aria-hidden="true" />
-                    </a>
+                                {/* Linked In */}
+                                <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                </a>
 
-                    {/* Github */}
-                    <a href="https://github.com/weitatt12" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-github-square" aria-hidden="true" />
-                    </a>
+                                {/* Github */}
+                                <a href="https://github.com/weitatt12" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                </a>
 
-                    {/* Facebook */}
-                    <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-facebook-square" aria-hidden="true" />
-                    </a>
-                </div>
+
+                                {/* Facebook */}
+                                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-facebook-square" aria-hidden="true" />
+                                </a>
+                                
+                            </div>
                         </div>
                     </Cell>
                 </Grid>

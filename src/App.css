@@ -94,8 +94,11 @@ body, html, #root {
 }
 
 ul a:hover {
-  background-color: red;
-  color: blue;
+  color: red;
+}
+
+ul a:active {
+  color: aqua;
 }
 
 /*Additional stuff to make the ModalHeader behave (maybe)*/

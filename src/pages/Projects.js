@@ -13,10 +13,11 @@ class Projects extends React.Component {
         return(
             <>  
                 <div className="project-color">
-                <h1 className="text-center mt-0"><strong><em>My Projects</em></strong></h1>
+                <h2 className="text-center mt-0"><strong><em>My Projects</em></strong></h2>
                 
                 <CardGroup className="projects" style={{width:'550px'}}>
-                    <a href="https://sugar-combat.herokuapp.com/" style={{textDecoration:'none',color:'black'}} target="_blank">
+
+                    <a href="https://sugar-combat.herokuapp.com/" style={{textDecoration:'none',color:'black'}} target="_blank" rel="noopener noreferrer">
                         <Card>
                             <img src="https://nextagram-flask.s3.amazonaws.com/Sugar+combat-pic.png" alt="sugar combat" width='550px' height='300px'/>
                             <CardBody>
@@ -28,7 +29,7 @@ class Projects extends React.Component {
 
                     <br />
 
-                    <a href="https://nextagram-done.herokuapp.com" style={{textDecoration:'none',color:'black'}} target="_blank">
+                    <a href="https://nextagram-done.herokuapp.com" style={{textDecoration:'none',color:'black'}} target="_blank" rel="noopener noreferrer">
                         <Card>
                             <img src="https://nextagram-flask.s3.amazonaws.com/Nextagram-pic.png" alt="nextagram" width='550px' height='300px'/>
                             <CardBody>
@@ -40,7 +41,7 @@ class Projects extends React.Component {
 
                     <br />
 
-                    <a href="https://awesome-davinci-55503e.netlify.com/" style={{textDecoration:'none',color:'black'}} target="_blank">
+                    <a href="https://awesome-davinci-55503e.netlify.com/" style={{textDecoration:'none',color:'black'}} target="_blank" rel="noopener noreferrer">
                         <Card>
                             <CardImg top width="100%" src="https://nextagram-flask.s3.amazonaws.com/Tic+Tac+Toe-pic.png" alt="tic tac toe" width='300px' height='300px' />
                             <CardBody>

@@ -82,9 +82,9 @@ class NavBar extends React.Component {
                         <Button block color="none" style={{cursor:'default'}}>
                             <a><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png" width='25px' height='25px'/> Number : +60 12 632 3931</a>
                         </Button>
-                        
+
                         <Button block color="none" style={{cursor:'default'}}>
-                            <a href="https://nextagram-flask.s3.amazonaws.com/Resume-LWT.pdf" download><img src="https://cdn2.iconfinder.com/data/icons/reports-and-analytics-7/49/30-512.png" width="25px" height="25px"/> Resume : Download Me</a>
+                            <a href="https://nextagram-flask.s3.amazonaws.com/Resume-LWT.pdf" target="_blank" rel="noopener noreferrer" download><img src="https://cdn2.iconfinder.com/data/icons/reports-and-analytics-7/49/30-512.png" width="25px" height="25px" /> Resume : Download Me</a>
                         </Button> 
 
                     </ModalBody>
